@@ -4,15 +4,15 @@
   Add a label to each of the input fields: username, password, confirm password
 
 */
-
+document.getElementById('label1').innerHTML = 'username';
+document.getElementById('label2').innerHTML = 'password';
+document.getElementById('label3').innerHTML = 'confirm password';
 /*
   Exercise 02
   -----------
   Add a required validation to each input that shows an error message next to the entry if it does not have any text entered.
 */
 function checkfield(){
-
-// solution 1
 var name = document.getElementById('username').value;
 var pass1 = document.getElementById('password').value;
 var pass2 = document.getElementById('confirmPassword').value;
